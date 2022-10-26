@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'formularios';
+  dadosUsuario = {
+    nome: '',
+    sobrenome: '',
+    email: '',
+    senha: ''
+  }
 }
